@@ -1,6 +1,7 @@
 header {
     background-color: #131313;
     color: #fff;
+    padding: 0 18px;
 }
 
 .header-footer-block {
@@ -10,30 +11,69 @@ header {
     max-width: 1256px;
     margin: auto;
     white-space: nowrap;
+    height: 83px;
+    margin: auto;
 }
 
 .header-footer__nav {
-
+    width: calc(100% / (1256 / 793));
 }
 
 .header-footer__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: calc(100% / (793 / 581));
+    min-width: 383px;
+    margin: auto;
 }
 
-.header-footer__item {
 
+
+
+
+/* [[[[[elements]]]]] */
+
+a[href^=tel]:hover {
+    text-decoration: underline var(--gold)
 }
 
+.header-footer-block a:hover {
+    color: var(--gold);
+}
 
 .h-f-button {
     color: #fff;
+    font-style: italic;
+    
     background-color: var(--gold);
     min-width: 161px;
     min-height: 37px;
 
     border-radius: 2px;
     border-style: none;
+    margin-left: 45px;
+    text-transform: uppercase;
 }
 
+.h-f-button:hover {
+    cursor: pointer;
+}
+
+
+/* [[[[[[[[media]]]]]]]] */
+@media screen and (max-width: 915px) {
+    .header-footer__nav {
+        display: none;
+    }
+
+    .h-f-button {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 375px) {
+    .header-footer-block {
+        height: 57px;
+    }
+}
