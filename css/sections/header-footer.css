@@ -1,0 +1,39 @@
+header {
+    background-color: #131313;
+    color: #fff;
+}
+
+.header-footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1256px;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.header-footer__nav {
+
+}
+
+.header-footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-footer__item {
+
+}
+
+
+.h-f-button {
+    color: #fff;
+    background-color: var(--gold);
+    min-width: 161px;
+    min-height: 37px;
+
+    border-radius: 2px;
+    border-style: none;
+}
+

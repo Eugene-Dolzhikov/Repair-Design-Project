@@ -1,0 +1,16 @@
+@import url(css/reset.css);
+@import url(css/fonts.css);
+@import url(css/vars.css);
+@import url(css/sections/header-footer.css);
+@import url(css/sections/S-1-home.css);
+@import url(css/sections/S-2-1-projects.css);
+@import url(css/sections/S-2-2-online.css);
+@import url(css/sections/S-3-measurement.css);
+@import url(css/sections/S-4-team.css);
+@import url(css/sections/S-5-reviews.css);
+@import url(css/sections/S-6-contacts.css);
+@import url(css/elements/checkbox.css);
+@import url(css/elements/input.css);
+@import url(css/elements/main-button.css);
+@import url(css/elements/marker-svg-wrap.css);
+@import url(css/elements/person-card.css);
