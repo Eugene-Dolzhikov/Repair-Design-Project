@@ -1,0 +1,129 @@
+.projects {
+    background-color: #131313;
+    padding: 0 18px;
+
+}
+
+.projects__block {
+    display: flex;
+    flex-flow: wrap-reverse;
+    column-gap: 35px;
+    color: #fff;
+    padding: 107px 0 0;
+    margin: 0 auto;
+    max-width: 1171px;
+
+}
+
+
+/* text content */
+.projects__text-content {
+    position: relative;
+    padding-top: calc(45px + 16px);
+    min-width: 217px;
+    /* max-width: 457px; */
+    flex: 1;
+    margin: 0 auto;
+}
+
+
+.h2-p-open p {
+    min-height: 180px;
+    padding: 34px 0 42px;
+    flex: 1;
+}
+
+.h2-p-close {
+    display: none;
+    min-width: 100px;
+}
+
+.h2-p-close h2 {
+    text-align: center;
+}
+
+.h2-p-close p {
+    min-height: 86px;
+    padding: 22px 0 36px;
+    flex: 1;
+}
+
+/* discription */
+.discritrion-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34px 30px;
+    max-width: 679px;
+    margin: 0 auto;
+}
+.discritrion-block dt {
+    margin-bottom: 10px;
+}
+
+/* slider */
+.slider-links {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    column-gap: 18px;
+}
+
+.slider-links a:first-child {
+    margin-right: 12px;
+}
+
+.slider-links a:last-child {
+    margin-left: 12px;
+}
+
+/* tabs */
+.projects-tabs {
+    margin: auto;
+}
+
+.projects-tabs__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.projects-tabs__link:hover {
+    color: var(--gold);
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--gold);
+}
+
+.projects-tabs__body img {
+    max-width: 100%;
+}
+
+
+/* [[[[[[[media]]]]]]]  */
+@media screen and (max-width: 1024px) {
+    .projects-tabs__list {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 966px) {
+    .h2-p-open,
+    .slider-links,
+    .projects-tabs__list {
+        display: none;
+    }
+    
+    .h2-p-close {
+        display: block;
+        max-width: 679px;
+        flex: 1;
+        margin: 0 auto;
+    }
+
+    .projects__block {
+        padding: 36px 0 0;
+    }
+}
+

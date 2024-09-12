@@ -1,0 +1,79 @@
+.home {
+    background-color: #00000070;
+    padding: 0 18px;
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(../../img/img/interior.jpeg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home__block {
+    max-width: calc(1440px - (134px * 2));
+    padding: 194px 0 208px;
+    margin: 0 auto;
+}
+
+.home__block * {
+    color: #fff;
+}
+
+.home__content {
+    max-width: 515px;
+}
+
+
+.home__p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.home__button-wrap {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    gap: 26px 20px;
+    max-width: 434px;
+    margin-top: 24px;
+}
+
+
+/* [[[[[[[[media]]]]]]]] */
+@media screen and (max-width: 375px) {
+    .home__block {
+        padding: 85px 0 61px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .home__block {
+        padding: 160px 0 170px;
+    }
+    
+    .home__content {
+        max-width: 490px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .home__block {
+        padding: 120px 0 130px;
+    }
+    
+    .home__content {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .home__block {
+        padding: 85px 0 120px;
+    }
+    
+    .home__content {
+        max-width: 450px;
+    }
+}

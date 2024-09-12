@@ -1,8 +1,175 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap');
 
+h1 {
+    font-size: 40px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 27px;
+    line-height: 1.38;
+    letter-spacing: -7%;
+
+    color: var(--gold);
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+dt {
+    font-size: 18px;
+    line-height: 21px;
+
+    color: var(--gold);
+}
+
+dd {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.projects-tabs__item {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 22px;
+    }
+    
+    dt {
+        font-size: 14px;
+        line-height: 1.38;
+    }
+    
+    dd {
+        font-size: 11px;
+        line-height: 1.36;
+    }
+}
+
+
+
+
+
+
+/* [[[[[[Nunito Sans]]]]]] */
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* [[[[[[[Yeseva One]]]]]]] */
+h1,
+h2,
+h3,
+h4,
+dt,
+address,
+.projects-tabs__item {
+    font-family: "Yeseva One", serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
 /* [[[[[[[[[header-footer]]]]]]]]] */
 .header-footer-block * {
     font-family: "Nunito Sans", sans-serif;
     font-size: 11px;
 }
 
+/* [[[[home]]]] */
+.h1 span {
+    color: var(--gold);
+}
+
+.home__p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+
+/* [[[[[[home-media]]]]]] */
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .home__p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 34px;
+    }
+
+    .home__p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .home__p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .home__p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    .home__p {
+        font-size: 14px;
+    }
+}
+
+
+/* [[[[[[[[[projects]]]]]]]]] */
+.h2-p-open p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.h2-p-close p {
+    line-height: 1.5;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .projects__text-content p {
+        font-size: 11px;
+    }
+}

@@ -33,6 +33,10 @@ header {
 
 
 /* [[[[[elements]]]]] */
+.header-logo {
+    color: var(--gold);
+    text-transform: uppercase;
+}
 
 a[href^=tel]:hover {
     text-decoration: underline var(--gold)
@@ -62,7 +66,7 @@ a[href^=tel]:hover {
 
 
 /* [[[[[[[[media]]]]]]]] */
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 1023px) {
     .header-footer__nav {
         display: none;
     }
@@ -77,3 +81,4 @@ a[href^=tel]:hover {
         height: 57px;
     }
 }
+

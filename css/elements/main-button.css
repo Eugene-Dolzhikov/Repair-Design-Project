@@ -1,0 +1,20 @@
+ .main-button {
+    height: 51px;
+    border-radius: 2px;
+    background-color: var(--gold);
+ }
+
+ .main-button:hover {
+    cursor: pointer;
+ }
+
+ .home-button {
+    font-size: 11px;
+    min-width: 207px;
+    flex: 1;
+ }
+
+ .home-button:last-child {
+    background-color: unset;
+    border: 1px #fff solid;
+ }
