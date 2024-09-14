@@ -173,3 +173,9 @@ address,
         font-size: 11px;
     }
 }
+
+@media screen and (max-width: 414px) {
+    .h2-p-close p {
+        font-size: 11px;
+    }
+}

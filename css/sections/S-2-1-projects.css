@@ -6,7 +6,7 @@
 
 .projects__block {
     display: flex;
-    flex-flow: wrap-reverse;
+    
     column-gap: 35px;
     color: #fff;
     padding: 107px 0 0;
@@ -124,6 +124,7 @@
 
     .projects__block {
         padding: 36px 0 0;
+        flex-flow: wrap-reverse;
     }
 }
 
