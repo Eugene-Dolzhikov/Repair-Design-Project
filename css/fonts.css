@@ -17,6 +17,7 @@ h2 {
 
 h3 {
     font-size: 20px;
+    text-align: center;
 }
 
 h4 {
@@ -41,16 +42,17 @@ dd {
     text-transform: uppercase;
 }
 
+
 @media screen and (max-width: 1024px) {
     h2 {
         font-size: 22px;
     }
-    
+
     dt {
         font-size: 14px;
         line-height: 1.38;
     }
-    
+
     dd {
         font-size: 11px;
         line-height: 1.36;
@@ -161,12 +163,20 @@ address,
     text-align: justify;
 }
 
+
+
 .h2-p-close p {
     line-height: 1.5;
 }
 
+.online__block {
+    color: #fff;
+}
 
-
+.online__block p {
+    font-size: 18px;
+    line-height: 2.04;
+}
 
 @media screen and (max-width: 1024px) {
     .projects__text-content p {
@@ -174,8 +184,13 @@ address,
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 434px) {
     .h2-p-close p {
         font-size: 11px;
+    }
+
+    .online__block p {
+        font-size: 11px;
+        line-height: 1.7;
     }
 }
