@@ -1,5 +1,7 @@
 .online__block {
+    position: relative;
     padding: 90px 0 0;
+
 }
 
 .marker {
@@ -15,11 +17,18 @@
     margin: auto;
 }
 
+.video-conteiner {
+    display: block;
+    text-align: center;
+}
+
 .video {
     position: relative;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    background-color: #131313;
+    /* margin: 0 auto; */
 }
 
 .video img {
@@ -73,5 +82,23 @@
     }
 }
 
+@media screen and (min-width: 809px) {
+    .online__block {
+        bottom: -735px;
+        margin-bottom: 735px;
+        margin-top: -735px;
+    }
 
+    .online__block p,
+    .project__form,
+    .custom-checkbox {
+        color: #131313;
+    }
+
+    .input-group__input::placeholder {
+        background-color: #fff;
+        color: #131313;
+    }
+
+}
 

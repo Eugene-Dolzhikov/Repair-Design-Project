@@ -1,6 +1,7 @@
 .projects-form {
+    position: relative;
     row-gap: 33px;
-    padding: 92px 0 88px;
+    padding: 92px 0 0;
 }
 
 .projects-form__inputs {
@@ -22,7 +23,7 @@
 }
 
 .input-group__label {
-    color: #ffffff50;
+    color: rgb(154, 154, 154);
     font-size: 13px;
 }
 
@@ -32,7 +33,7 @@
     color: #fff;
     background-color: #131313ff;
     border-style: none;
-    border-bottom: 1px solid #ffffff50;
+    border-bottom: 1px solid rgb(154, 154, 154);
 }
 
 .input-group__input::placeholder {
@@ -46,34 +47,41 @@ input {
     outline: unset;
 }
 
+
+
+
 .input__button {
-    min-height: 51px;
-    min-width: 200px;
-    max-width: 525px;
+    height: 51px;
+    color: #fff;
     border-radius: 1px;
     border-style: none;
     background-color: var(--gold);
-    flex: 1;
     box-shadow: 0px 15px 15px 0px rgba(227, 184, 115, 0.15);
-    margin: 0 auto;
-}
-
-.name-phone-inputs {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-    gap: 58px 63px;
-    flex-grow: 1;
+    /* margin: 0 auto; */
 }
 
 .button-open {
     display: inline-block;
+    min-width: 200px;
+    max-width: 525px;
 }
 
 .button-close {
+    position: relative;
+    bottom: -25px;
     display: none;
-
+    margin-bottom: 25px;
+    margin-top: -25px;
 }
+
+
+
+
+.custom-checkbox {
+    padding: 33px 0 64px;
+}
+
+
 
 @media screen and (max-width: 808px) {
     .button-open {
@@ -82,7 +90,24 @@ input {
 
     .button-close {
         display: block;
+        width: 100%;
 
     }
 
+    .custom-checkbox {
+        /* padding: 26px 0 calc(88px - 51px); */
+        padding: 26px 0 88px;
+    }
+}
+
+@media screen and (min-width: 809px) {
+    .input-group__input {
+        background-color: #fff;
+        color: #131313;
+    }
+    
+    .input-group__input::placeholder {
+        background-color: #fff;
+        color: #131313;
+    }
 }
