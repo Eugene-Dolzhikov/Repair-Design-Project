@@ -76,6 +76,7 @@ h3,
 h4,
 dt,
 address,
+.card__label,
 .projects-tabs__item {
     font-family: "Yeseva One", serif;
     text-transform: uppercase;
@@ -193,4 +194,22 @@ address,
         font-size: 11px;
         line-height: 1.7;
     }
+}
+
+
+/* [[[[[[measurement]]]]]] */
+.card__label {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 17px;
+    margin-bottom: -25px;
+}
+
+.measurement-card__list {
+    font-size: 13px;
+    line-height: 2.04;
+    color: #959595;
+    list-style: inside;
 }

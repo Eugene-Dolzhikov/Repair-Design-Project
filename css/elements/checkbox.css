@@ -1,0 +1,43 @@
+input[type=checkbox] {
+    display: none;
+}
+
+.custom-checkbox {
+    text-align: center;
+}
+
+.custom-checkbox__label {
+    font-size: 14px;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    text-align: center;
+}
+
+.custom-checkbox__label::before {
+    content: "";
+    display: block;
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    border: 3px solid var(--gold);
+    border-radius: 2px;
+    margin-right: 8px;
+    background-color: #fff;
+}
+
+
+input[type=checkbox]:checked + .custom-checkbox__label::before {
+    content: "";
+    display: block;
+    /* align-self: baseline; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--gold);
+    background-image: url(../../img/svg/galka.svg);
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 1px;
+    margin-right: 8px;
+}
