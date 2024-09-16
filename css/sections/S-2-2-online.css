@@ -73,29 +73,5 @@
     }
 }
 
-/* [[[[[[[[input]]]]]]]] */
-.projects-form {
-    display: flex;
-    flex-direction: column;
-    row-gap: 33px;
-    padding: 92px 0 88px;
-}
 
-.projects-form__inputs {
-    display: flex;
-    align-items: end;
-    flex-flow: wrap;
-    column-gap: 48px;
-    max-width: 780px;
-    margin: 0 auto;
-}
 
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 808px) {
-    .input-group__button {
-        position: relative;
-        margin-bottom: -167px;
-    }
-}
