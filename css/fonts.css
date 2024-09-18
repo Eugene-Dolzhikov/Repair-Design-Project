@@ -213,3 +213,16 @@ address,
     color: #959595;
     list-style: inside;
 }
+
+@media screen and (max-width: 434px) {
+    h4 {
+        font-size: 15px;
+        line-height: 1.38;
+    }
+
+    .measurement-card__list {
+        line-height: 1.7;
+    }
+
+
+}
