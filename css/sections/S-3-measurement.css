@@ -1,4 +1,9 @@
 .measurement__block {
-    padding: 83px 18px 0;
+    padding: calc(148px - 88px) 18px 0;
 }
 
+@media screen and (max-width: 967px) {
+    .measurement__block {
+        padding: 83px 18px 0;
+    }
+}

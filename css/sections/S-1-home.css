@@ -38,13 +38,7 @@
 
 
 /* [[[[[[[[media]]]]]]]] */
-@media screen and (max-width: 375px) {
-    .home__block {
-        padding: 85px 0 61px;
-    }
 
-    
-}
 
 @media screen and (max-width: 1024px) {
     .home__block {
@@ -66,6 +60,7 @@
     .home__content {
         max-width: 450px;
     }
+    
 }
 
 @media screen and (max-width: 434px) {
@@ -76,4 +71,12 @@
     .home__content {
         max-width: 450px;
     }
+}
+
+@media screen and (max-width: 375px) {
+    .home__block {
+        padding: 85px 0 61px;
+    }
+
+    
 }
