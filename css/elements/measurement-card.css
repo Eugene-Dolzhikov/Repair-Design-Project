@@ -1,0 +1,76 @@
+.measurement__cards-block {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 59px;
+    max-width: 1236px;
+    margin: 0 auto;
+}
+
+
+.measurement-card {
+    width: calc((100% - 60px) / 3);
+    max-width: 679px;
+    flex: 1;
+}
+
+.measurement-card__img {
+    width: 100%;
+}
+
+.measurement-card__body {
+    position: relative;
+    top: -127px;
+    background-color: #fff;
+    width: calc(100% / (392 / 330));
+    margin: 0 auto;
+
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+}
+
+.measurement-card__text {
+    padding-top: 25px;
+    padding-left: 34px;
+}
+
+.measurement-card__list {
+    padding: 13px 0 23px;
+}
+
+.card__label {
+    display: inline-block;
+    width: 228px;
+    height: 54px;
+    color: #fff;
+    background-color: var(--gold);
+
+}
+
+
+
+
+
+/* [[[[[[[MEDIA]]]]]]] */
+
+@media screen and (max-width: 967px) {
+    .measurement__cards-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .measurement-card {
+        width: 100%;
+        min-width: calc(375px - 36px);
+    }
+
+    .measurement-card__body {
+        margin: unset;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .card__label {
+        width: 190px;
+        height: 40px;
+    }
+}

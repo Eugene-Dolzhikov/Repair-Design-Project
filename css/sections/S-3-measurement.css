@@ -7,3 +7,100 @@
         padding: 83px 18px 0;
     }
 }
+
+.measurement-info {
+    margin: 230px auto 0;
+}
+
+.measurement-info__flex-wrap {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    column-gap: 131px;
+    margin: 0 auto;
+    max-width: 1236px;
+}
+
+.measurement-info__left-column {
+    background-image: url("../../img/svg/house.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+    flex: 1;
+    flex-basis: 599px;
+    max-width: 817px;
+    margin: 0 auto 111px auto;
+
+}
+
+.measurement-info__right-column {
+    flex: 1;
+    flex-basis: 506px;
+    max-width: 817px;
+    margin: 0 auto;
+}
+
+.measurement-info__left-column ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 146px;
+    padding-right: 8.5%;
+    counter-reset: list;
+
+    height: 533px;
+
+    
+
+}
+
+.measurement-info__left-column li {
+    display: flex;
+    align-items: center;
+    counter-increment: list;
+    column-gap: 17px;
+}
+
+.measurement__input-block {
+    margin: 0 auto;
+}
+
+.measurement-info__left-column li::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: counter(list) ". ";
+    color: #fff;
+    background-color: var(--gold);
+
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    line-height: 138%;
+    border-radius: 50%;
+    text-align: center;
+
+    height: 41px;
+    min-width: 41px;
+    flex-basis: 41px;
+}
+
+.measurement-info__right-column__pig-text {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 25px;
+    padding-top: 38px;
+}
+
+@media screen and (max-width: 768px) {
+    .measurement-info__left-column ol {
+        padding-left: 41px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .measurement-info__flex-wrap {
+        display: none;
+    }
+}

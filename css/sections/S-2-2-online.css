@@ -59,7 +59,7 @@
 }
 
 
-
+/* [[[[[[[[[media]]]]]]]]] */
 @media screen and (max-width: 768px) {
     .play-button {
         width: 66px;
@@ -84,21 +84,16 @@
 
 @media screen and (min-width: 804px) {
     .online__block {
-        bottom: -735px;
-        margin-bottom: 735px;
-        margin-top: -735px;
+        bottom: -760px;
+        margin-bottom: 760px;
+        margin-top: -760px;
     }
 
-    .online__block p,
-    .project__form,
-    .checkbox-group__label {
+    .online__block p {
         color: #131313;
     }
 
-    .input-group__input::placeholder {
-        background-color: #fff;
-        color: #131313;
-    }
+    
 
 }
 

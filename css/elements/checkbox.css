@@ -2,16 +2,12 @@ input[type=checkbox] {
     display: none;
 }
 
-.checkbox-group {
-    text-align: center;
-}
 
 .checkbox-group__label {
     font-size: 14px;
     display: inline-flex;
     flex-flow: row nowrap;
     align-items: baseline;
-    text-align: center;
 }
 
 .checkbox-group__label::before {
