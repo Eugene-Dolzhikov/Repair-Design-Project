@@ -96,7 +96,7 @@ input {
 
 
 /* ------margines------ */
-.input-group {
+.projects-form__inputs {
     margin-bottom: calc(20px + 62px + 26px);
 }
 
