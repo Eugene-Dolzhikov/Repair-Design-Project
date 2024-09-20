@@ -82,7 +82,7 @@
     }
 }
 
-@media screen and (min-width: 809px) {
+@media screen and (min-width: 804px) {
     .online__block {
         bottom: -735px;
         margin-bottom: 735px;
@@ -91,7 +91,7 @@
 
     .online__block p,
     .project__form,
-    .custom-checkbox {
+    .checkbox-group__label {
         color: #131313;
     }
 

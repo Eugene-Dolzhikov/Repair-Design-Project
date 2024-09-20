@@ -2,11 +2,11 @@ input[type=checkbox] {
     display: none;
 }
 
-.custom-checkbox {
+.checkbox-group {
     text-align: center;
 }
 
-.custom-checkbox__label {
+.checkbox-group__label {
     font-size: 14px;
     display: inline-flex;
     flex-flow: row nowrap;
@@ -14,7 +14,7 @@ input[type=checkbox] {
     text-align: center;
 }
 
-.custom-checkbox__label::before {
+.checkbox-group__label::before {
     content: "";
     display: block;
     width: 18px;
@@ -27,7 +27,7 @@ input[type=checkbox] {
 }
 
 
-input[type=checkbox]:checked + .custom-checkbox__label::before {
+input[type=checkbox]:checked + .checkbox-group__label::before {
     content: "";
     display: block;
     /* align-self: baseline; */
