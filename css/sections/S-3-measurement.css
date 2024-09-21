@@ -48,11 +48,10 @@
     padding-left: 146px;
     padding-right: 8.5%;
     counter-reset: list;
-
     height: 533px;
-
     
-
+    
+    
 }
 
 .measurement-info__left-column li {
@@ -70,19 +69,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    content: counter(list) ". ";
+    content: "0" counter(list);
     color: #fff;
     background-color: var(--gold);
-
+    
     font-family: "Yeseva One", serif;
     font-size: 18px;
     line-height: 138%;
     border-radius: 50%;
+    border: 6px solid white;
     text-align: center;
-
-    height: 41px;
-    min-width: 41px;
-    flex-basis: 41px;
+    
+    height: 42px;
+    min-width: 42px;
+    flex-basis: 42px;
+    box-sizing: content-box;
 }
 
 .measurement-info__right-column__pig-text {

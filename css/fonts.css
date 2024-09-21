@@ -12,6 +12,7 @@ h2 {
     line-height: 1.38;
     letter-spacing: -7%;
 
+    white-space: nowrap;
     color: var(--gold);
 }
 
@@ -229,4 +230,22 @@ address,
         line-height: 1.38;
         padding: 12px;
     }
+}
+
+
+
+/* [[[[team]]]] */
+.team__text-block h2 {
+    color: var(--gold);
+}
+
+.team__text-block a {
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.team__text-block a:hover {
+    color: var(--gold);
+    border-bottom: solid 1px var(--gold);
 }
