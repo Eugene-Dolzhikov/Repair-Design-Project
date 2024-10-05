@@ -1,22 +1,3 @@
-<svg width="66.000122" height="66.000122" viewBox="0 0 66.0001 66.0001" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<filter id="filter_5_175_dd" x="0.000000" y="0.000000" width="66.000122" height="66.000122" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="0"/>
-			<feGaussianBlur stdDeviation="5"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0.8902 0 0 0 0 0.72157 0 0 0 0 0.45098 0 0 0 0.5 0"/>
-			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
-			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
-		</filter>
-	</defs>
-	<g filter="url(#filter_5_175_dd)">
-		<circle id="Ellipse" r="18.000055" transform="matrix(-1 -8.74228e-08 8.74228e-08 -1 33.0001 33.0001)" fill="#E3B873" fill-opacity="1.000000"/>
-	</g>
-	<path id="Vector (Stroke)" d="M34.56 38.47L29.08 32.99L34.56 27.52L35.34 28.3L30.65 32.99L35.34 37.69L34.56 38.47Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
-	<path id="Vector (Stroke)" d="M34.56 27.52L29.08 32.99L34.56 38.47L35.34 37.69L30.65 32.99L35.34 28.3L34.56 27.52Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="0.750000"/>
+<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.56569 11.4782L1.08689 5.99993L6.56569 0.521654L7.34778 1.30367L2.65107 5.99993L7.34778 10.6962L6.56569 11.4782Z" fill="white" stroke="white" stroke-width="0.75"/>
 </svg>

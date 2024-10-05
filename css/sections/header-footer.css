@@ -1,8 +1,11 @@
-header {
+header,
+footer {
     background-color: #131313;
     color: #fff;
     padding: 0 18px;
 }
+
+
 
 .header-footer-block {
     display: flex;
@@ -13,6 +16,10 @@ header {
     white-space: nowrap;
     height: 83px;
     margin: auto;
+}
+
+footer .header-footer-block {
+    height: 133px;
 }
 
 .header-footer__nav {
@@ -49,7 +56,7 @@ a[href^=tel]:hover {
 .h-f-button {
     color: #fff;
     font-style: italic;
-    
+
     background-color: var(--gold);
     min-width: 161px;
     min-height: 37px;
@@ -73,7 +80,7 @@ a[href^=tel]:hover {
 
     .h-f-button {
         display: none;
-    }    
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -81,4 +88,3 @@ a[href^=tel]:hover {
         height: 57px;
     }
 }
-

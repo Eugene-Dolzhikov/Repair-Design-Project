@@ -12,6 +12,9 @@
     width: calc((100% - 60px) / 3);
     max-width: 679px;
     flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 27px;
 }
 
 .measurement-card__img {
@@ -19,18 +22,14 @@
 }
 
 .measurement-card__body {
-    position: relative;
-    top: -127px;
     background-color: #fff;
     width: calc(100% / (392 / 330));
-    margin: 0 auto;
-
+    margin: -127px auto 0;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
 }
 
 .measurement-card__text {
-    padding-top: 25px;
-    padding-left: 34px;
+    padding: 25px 34px 0;
 }
 
 .measurement-card__list {
@@ -38,19 +37,26 @@
 }
 
 .card__label {
-    display: inline-block;
-    width: 228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 54px;
     color: #fff;
     background-color: var(--gold);
+    box-shadow: 5px 5px 20px 0px rgba(227, 184, 115, 0.5);
+    margin: 0 0 -27px;
+}
 
+.price {
+    width: 228px;
 }
 
 
 
 
-
 /* [[[[[[[MEDIA]]]]]]] */
+
+
 
 @media screen and (max-width: 967px) {
     .measurement__cards-block {
@@ -63,8 +69,15 @@
         min-width: calc(375px - 36px);
     }
 
+    .measurement-info {
+        margin-top: 111px;
+    }
+}
+
+@media screen and (max-width: 967px) {
     .measurement-card__body {
-        margin: unset;
+    margin: -127px 0 0;
+
     }
 }
 
@@ -72,5 +85,10 @@
     .card__label {
         width: 190px;
         height: 40px;
+        margin-bottom: -20px;
+    }
+
+    .measurement-card {
+        margin-bottom: 20px;
     }
 }

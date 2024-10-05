@@ -1,0 +1,85 @@
+.contacts {
+    padding: 0px 18px 0;
+    background-color: rgb(24,24,24,);
+    background: linear-gradient(180.00deg, rgba(24, 24, 24, 0.9) 3.47%,rgba(24, 24, 24, 0.72) 100%), url(../../img/img/background-house.jpg) no-repeat;
+
+    background-size: contain;
+}
+
+/* .contacts-block {
+    display: flex;
+    flex-flow: column;
+} */
+
+.address {
+    text-align: center;
+    max-width: 589px;
+    margin: 52px auto 0;
+}
+
+.address .social-nets {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 26px;
+    padding-bottom: 43px;
+    text-align: center;
+}
+
+.contact-map {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 43px; */
+    padding-bottom: 66px;
+    margin: auto;
+}
+
+.contact-map img {
+    margin: 0 auto;
+    max-width: 925px;
+    /* max-height: 465px; */
+
+    width: 100%;
+}
+
+.contact-map-mini {
+    max-width: 100%;
+    display: none;
+}
+
+.contact-map-mini img {
+    width: 100%;
+}
+
+
+/* [[[[[[[[[media]]]]]]]]] */
+@media screen and (max-width: 967px) {
+    .contacts {
+        background-color: #131313;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 967px) {
+    .contacts {
+        margin-top: 0;
+    }
+    
+    .contacts-block {
+        padding-top: calc(50% / (340 / 242));
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .contact-map {
+        display: none;
+    }
+
+    .contact-map-mini {
+        display: block;
+    }
+
+    footer .header-footer-block {
+        display: none;
+    }
+}

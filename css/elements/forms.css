@@ -101,7 +101,7 @@ input {
 row-gap: calc(63px - 7px);
 }
 
-@media screen and (min-width: 804px) {
+@media screen and (min-width: 853px) {
     .projects-form,
     .projects-form .checkbox-group__label,
     .projects-form .input-group__input,
@@ -129,24 +129,24 @@ row-gap: calc(63px - 7px);
 
 
 /* [[[[measurement inputs]]]] */
+.measurement__input-block {
+    margin: 0 auto;
+}
+
 .measurement-form {
     justify-content: end;
-    /* min-width: 506px; */
     padding: 28px 49px;
     text-align: right;
 
 }
 
 .measurement-form .form__inputs {
-    /* max-width: 408px; */
     margin: 0 auto;
 }
 
 .measurement-form p {
-    text-align: center;
     width: 100%;
     padding-bottom: 39px;
-    /* color: #fff; */
 }
 
 .measurement .checkbox-group {
@@ -159,38 +159,81 @@ row-gap: calc(63px - 7px);
     flex-grow: unset;
 }
 
+/* [[[[[[[[Contact inputs]]]]]]]]  */
+.contacts__input-block {
+    max-width: 883px;
+    margin: 0 auto 0;
+    
+    text-align: center;
+    
+}
 
+.contacts__form {
+    justify-content: center;
+    max-width: 100%;
+    padding: 34px 0;
+    text-align: center;
+    margin-top: calc(-50% / (883 / 450));
+    
+    position: relative;
+    z-index: 2;
 
+}
 
+.contacts__form .form__inputs {
+    max-width: 520px;
+    margin: 0 auto;
+}
 
+.contacts__input-block h3 {
+    text-align: center;
+    width: 100%;
+    /* padding-top: 34px; */
+    padding-bottom: 45px;
+    /* color: #fff; */
+}
 
+.contacts .checkbox-group {
+    margin-top: 46px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 
+.contacts .form__button {
+    flex-grow: unset;
+}
 
+@media screen and (max-width: 967px) {
+    .contacts__input-block {
+        max-width: 817px;
+        padding-top: calc(581px / 2);
+        margin: 0 auto;
+    }
+    
+    .contacts__form {
+        position: static;
+        margin: 0;
+        
+    }
+    
+}
 
-
-
-
-@media screen and (max-width: 768px) {
-    .projects-form {
-        margin: 62px auto 0;
+@media screen and (max-width: 853px) {
+    .contacts__input-block {
+        padding-top: calc(50% / (817 / 581));
     }
 }
 
-@media screen and (max-width: 803px) {
-    .checkbox-group {
-        /* padding: 26px 0 calc(88px - 51px); */
-        /* padding: 26px 0 88px; */
+@media screen and (max-width: 434px) {
+    .contacts .form__button  {
+        flex-grow: 1;
+    }
+
+    .contacts .checkbox-group {
+        text-align: left;
     }
 }
 
-/* @media screen and (min-width: 804px) {
-    .input-group__input {
-        background-color: #fff;
-        color: #131313;
-    }
 
-    .input-group__input::placeholder {
-        background-color: #fff;
-        color: #131313;
-    }
-} */
+
+

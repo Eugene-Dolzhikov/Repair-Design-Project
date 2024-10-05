@@ -21,7 +21,6 @@
     position: relative;
     padding-top: calc(45px + 16px);
     min-width: 217px;
-    /* max-width: 457px; */
     flex: 1;
     margin: 0 auto;
 }

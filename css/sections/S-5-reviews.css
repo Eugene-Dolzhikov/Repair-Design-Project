@@ -1,0 +1,39 @@
+.reviews {
+    padding: 0 18px 381px;
+    background: 
+        url(../../img/img/City-Frame-1.jpeg) 0 100% no-repeat,
+        url(../../img/img/City-Frame-2.jpeg) 100% 100% no-repeat;
+
+    background-size: 50% 80%;
+
+    position: relative;
+    z-index: 1;
+}
+
+
+.reviews-block {
+    margin-top: 110px;
+}
+
+
+.reviews-block p {
+    margin: 24px auto 39px;
+    margin-top: 24px;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* [[[[[[[media]]]]]]] */
+@media screen and (max-width: 967px) {
+    .reviews {
+        display: none;
+    }
+}
+
+
+
